@@ -166,3 +166,5 @@ utterances/
 /deletelist.txt
 /speech_config_test.json
 /judge_synonym_model/
+/judge_synonym_model/models--DMetaSoul--sbert-chinese-general-v1-distill/
+/judge_synonym_model/models--sentence-transformers--all-MiniLM-L6-v2/
