@@ -165,3 +165,4 @@ utterances/
 /wordlist.txt
 /deletelist.txt
 /speech_config_test.json
+/judge_synonym_model/
