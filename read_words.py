@@ -4,7 +4,6 @@ import speech_synthesis
 import os
 import hashlib
 import base62
-# import sys
 
 
 def get_md5_hash_base62_encoded(s):
@@ -15,14 +14,7 @@ def get_md5_hash_base62_encoded(s):
 
 
 def get_corpus_path(language='english'):
-    # current_script_path = os.path.abspath(__file__)
-    # current_script_path = os.path.abspath(sys.executable)
-    # current_script_directory = os.path.dirname(current_script_path).replace('\\', '/')
-
     current_script_directory = os.getcwd()
-    # project_path = os.path.join(current_script_directory, "..")
-    # project_path = os.path.normpath(project_path).replace('\\', '/')
-    # corpus_path = project_path + '/utterances/' + language
     corpus_path = current_script_directory + '/utterances/' + language
     return corpus_path
 

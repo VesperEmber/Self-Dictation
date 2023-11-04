@@ -9,7 +9,6 @@ import pandas as pd
 from tabulate import tabulate
 import os
 import json
-import sys
 
 pd.set_option("display.unicode.east_asian_width", True)
 pd.set_option('display.max_columns', None)  # 显示所有行(参数设置为 None 代表显示所有行, 也可以自行设置数字)
@@ -308,11 +307,7 @@ class Corpus(CorpusWeight):
 
 
 if __name__ == '__main__':
-    corpus_path = 'D:/PythonProjects/PycharmProjects/Self_Dictation/vocabulary/english/corpus.json'
-    with open(corpus_path, "r", encoding='utf-8') as json_file:
-        corpus = json.load(json_file)
-
-    corpus_obj = Corpus(corpus)
+    pass
     # print(corpus_obj)
     # print(corpus_obj.corpus)
     # print(corpus_obj.wordlist)
@@ -323,8 +318,6 @@ if __name__ == '__main__':
     #     except:
     #         orders = [0] + orders
     #     corpus_obj.display_corpus(*orders)
-
-    corpus_obj.display_corpus(0, 'all_params', 'tabulate')
     # corpus_obj.display_corpus(0, 'all_params')
     # corpus_obj.sort_corpus_by_instruction('weight')
     # corpus_obj.display_corpus(0, 'all_params')

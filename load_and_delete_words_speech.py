@@ -18,10 +18,6 @@ def load_word_speech(word, language='english', voice_name=None):
 
 
 def load_words_speech_from_list(wordlist, language='english', voice_name=None):
-    # input('debug2')
-    # print(os.getcwd())
-    # print(wordlist)
-    # input('debug2.5')
     # for word in tqdm(wordlist, desc='Importing words'):
     #     input('debug3')
     #     load_word_speech(word, language=language, voice_name=voice_name)

@@ -3,13 +3,9 @@ import os
 import load_and_delete_words_speech
 from datetime import datetime
 import re
-import sys
 
 
 def get_project_path():
-    # current_script_path = os.path.abspath(__file__)
-    # current_script_path = os.path.abspath(sys.executable)
-    # project_path = os.path.dirname(current_script_path).replace('\\', '/')
     project_path = os.getcwd()
     return project_path
 

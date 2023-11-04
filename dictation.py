@@ -213,16 +213,3 @@ if __name__ == '__main__':
             correct_sound()
         else:
             wrong_sound()
-# correct_sound()
-# wrong_sound()
-# pass
-# input_meanings = input().strip()
-# input_meanings = re.sub(r'[,，;；、]', ' ', input_meanings).split()
-# print(input_meanings)
-
-# if os.path.exists(word_path):
-#     print(f'use existing "{language}" sound source for "{word}"', word_path)
-#     # playsound(word_path)
-#     rate, data = readwav(word_path)
-#     sd.play(data, rate)
-#     sd.wait()

@@ -2,7 +2,6 @@ import os
 import json
 from transformers import AutoTokenizer, AutoModel
 from Corpus_class import Corpus
-# import sys
 import time
 
 
@@ -64,12 +63,7 @@ def initialize(**kwargs):
         print(f'main "{kwargs["language"]}" corpus is empty.')
 
     # 从本地目录加载模型和分词器
-    # current_dir = os.getcwd().replace('\\', '/')
-    # print(current_dir)
-    # current_script_path = os.path.abspath(sys.executable)
-    # current_dir = os.path.dirname(current_script_path)
     current_dir = os.getcwd()
-
     MiniLM_path = current_dir + '/judge_synonym_model/models--sentence-transformers--all-MiniLM-L6-v2' \
                                 '/snapshots/7dbbc90392e2f80f3d3c277d6e90027e55de9125'
     sbert_path = current_dir + '/judge_synonym_model/models--DMetaSoul--sbert-chinese-general-v1-distill' \

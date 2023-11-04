@@ -3,8 +3,6 @@ from speech_synthesis import azure_system_speech
 azure_connection = False
 
 
-# "\033[32m" + 'self-dictation: ' + "\033[0m"
-
 class Help:
     @staticmethod
     def main_help():

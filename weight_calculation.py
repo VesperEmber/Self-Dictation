@@ -2,9 +2,6 @@ import datetime
 import numpy as np
 
 
-# from numpy import array, exp, log
-
-
 def two_days_gap(start_date, end_date=str(datetime.datetime.now().date())):
     """
     接受两个以 '2023-10-24' 格式写成的日期, 这个日期可以是 str 类型, 也可以是 datetime.date 类型
@@ -171,11 +168,7 @@ if __name__ == '__main__':
     print(calculate_forget_curve_weight('2023-11-1'))
     print(calculate_forget_curve_weight(None))
     print(round((1 / (1 + 1e-6)), 3))
-    # import json
-    #
-    # corpus_path = 'D:/PythonProjects/PycharmProjects/Self_Dictation/vocabulary/english/corpus.json'
-    # with open(corpus_path, "r", encoding='utf-8') as json_file:
-    #     corpus = json.load(json_file)
+
     #
     # corpus_weight_obj = CorpusWeight(corpus)
     # # print(corpus_weight_obj)
