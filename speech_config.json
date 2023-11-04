@@ -1,0 +1,13 @@
+{
+    "SPEECH_KEY": "",
+    "SPEECH_REGION": "",
+    "language": "english",
+    "voice_name": {
+        "english": "en-US-JennyNeural",
+        "chinese": "zh-CN-YunxiNeural",
+        "japanese": "ja-JP-NanamiNeural",
+        "german": "de-DE-KatjaNeural",
+        "french": "fr-FR-DeniseNeural"
+    },
+    "save_path": ""
+}
